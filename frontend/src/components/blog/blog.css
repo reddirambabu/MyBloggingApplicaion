@@ -1,0 +1,52 @@
+.blog {
+  margin: 50px 0;
+  
+}
+.blog .boxItems {
+  transition: 0.5s;
+}
+.blog .boxItems:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.blog img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.blog .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.blog .tag a {
+  color: rgba(10, 10, 171, 0.71);
+  opacity: 0.9;
+}
+.blog .tag {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.blog h3 {
+  font-weight: 400;
+  color:#0f87f8;
+}
+.blog p {
+  color: #150101;
+  font-weight: 200;
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-family: "Caveat";
+}
+.blog .date {
+  display: flex;
+  align-items: center;
+}
+.blog .date label {
+  display: block;
+  margin-right: 20px;
+}
